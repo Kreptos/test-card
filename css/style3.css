@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Golos", sans-serif;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    line-height: 33px;
+}
+p{
+    line-height: 24px;
+}
+
+@font-face{
+    font-family: "Golos";
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("../fonts/Golos-Text_Regular.woff") format("woff"),
+         url("../fonts/Golos-Text_Regular.woff2") format("woff2");
+}
+
+@font-face{
+    font-family: "Golos";
+    font-style: normal;
+    font-weight: 700;
+    font-display: block;
+    src: url("../fonts/Golos-Text_Bold.woff") format("woff"),
+         url("../fonts/Golos-Text_Bold.woff2") format("woff2");
+}
+
+body{
+    background: #2E3039;
+}
+
+.wrapper{
+    margin: 20px;
+}
+
+.card_position{
+    margin: 0 auto;
+}
+
+.card{
+    width: 500px;
+    height: 655px;
+    background: #fff;
+    position: relative;
+}
+
+.img-block{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 375px;
+}
+
+.img-block__image{
+    height: 100%;
+}
+
+.info{
+    padding: 20px;
+}
+
+.info__header{
+    z-index: 2;
+    position: relative;
+    display: flex;
+    font-size: 14px;
+}
+
+.info__date{
+    margin-right: 16px;
+    align-self: center;
+}
+
+.info__label{
+    color: #fff;
+    background: #1D1E21;
+    border-radius: 80px;
+    padding: 4px 8px 6px;
+}
+
+.info__heading{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+}
+
+.info__paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.info__details,
+.info__header{
+    display: none;
+}
+
+.info_wrapper{
+    margin-bottom: 12px;
+}
